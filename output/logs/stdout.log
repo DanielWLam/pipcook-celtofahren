@@ -1,0 +1,43 @@
+start loading plugin @pipcook/plugins-mnist-data-collect
+collecting training data ...
+collecting test data ...
+start loading plugin @pipcook/plugins-pascalvoc-data-access
+create a result "XBml6brWr" for plugin "@pipcook/plugins-pascalvoc-data-access@1.0.5"
+start loading plugin @pipcook/plugins-image-data-process
+start loading plugin @pipcook/plugins-tfjs-simplecnn-model-define
+create a result "NG2BZv8oV" for plugin "@pipcook/plugins-tfjs-simplecnn-model-define@1.0.5"
+start loading plugin @pipcook/plugins-image-classification-tfjs-model-train
+create train dataset
+Epoch 1 / 15
+168439ms 336879us/step - acc=0.177 loss=12.02 
+Epoch 2 / 15
+166734ms 333468us/step - acc=0.416 loss=5.52 
+Epoch 3 / 15
+168034ms 336067us/step - acc=0.646 loss=1.50 
+Epoch 4 / 15
+190941ms 381882us/step - acc=0.768 loss=0.850 
+Epoch 5 / 15
+169023ms 338046us/step - acc=0.838 loss=0.609 
+Epoch 6 / 15
+173247ms 346494us/step - acc=0.872 loss=0.487 
+Epoch 7 / 15
+172138ms 344276us/step - acc=0.895 loss=0.405 
+Epoch 8 / 15
+172626ms 345251us/step - acc=0.909 loss=0.376 
+Epoch 9 / 15
+180749ms 361499us/step - acc=0.916 loss=0.338 
+Epoch 10 / 15
+178027ms 356054us/step - acc=0.926 loss=0.317 
+Epoch 11 / 15
+178077ms 356153us/step - acc=0.933 loss=0.296 
+Epoch 12 / 15
+176772ms 353543us/step - acc=0.940 loss=0.283 
+Epoch 13 / 15
+179165ms 358330us/step - acc=0.945 loss=0.266 
+Epoch 14 / 15
+180582ms 361165us/step - acc=0.949 loss=0.254 
+Epoch 15 / 15
+165906ms 331813us/step - acc=0.951 loss=0.243 
+create a result "wugkUBW1Q" for plugin "@pipcook/plugins-image-classification-tfjs-model-train@1.0.5"
+start loading plugin @pipcook/plugins-image-classification-tfjs-model-evaluate
+create a result "J8GKBgDFy" for plugin "@pipcook/plugins-image-classification-tfjs-model-evaluate@1.0.5"

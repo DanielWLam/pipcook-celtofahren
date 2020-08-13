@@ -1,0 +1,36 @@
+{
+  "cwd": "/Users/linwending/code/github/pipcook-celtofahren",
+  "pipeline": {
+    "id": "0uR2sC8dyY",
+    "name": null,
+    "dataCollect": "@pipcook/plugins-mnist-data-collect",
+    "dataCollectParams": "{\"trainCount\":8000,\"testCount\":2000}",
+    "dataAccess": "@pipcook/plugins-pascalvoc-data-access",
+    "dataAccessParams": "{}",
+    "dataProcess": "@pipcook/plugins-image-data-process",
+    "dataProcessParams": "{\"resize\":[28,28]}",
+    "modelDefine": "@pipcook/plugins-tfjs-simplecnn-model-define",
+    "modelDefineParams": "{}",
+    "modelLoad": null,
+    "modelLoadParams": null,
+    "modelTrain": "@pipcook/plugins-image-classification-tfjs-model-train",
+    "modelTrainParams": "{\"epochs\":15}",
+    "modelEvaluate": "@pipcook/plugins-image-classification-tfjs-model-evaluate",
+    "modelEvaluateParams": "{}",
+    "createdAt": "2020-08-06T02:42:39.500Z",
+    "updatedAt": "2020-08-06T02:42:39.500Z"
+  },
+  "output": {
+    "id": "9Iki8iwo-j",
+    "pipelineId": "0uR2sC8dyY",
+    "specVersion": "1.0.5",
+    "status": 2,
+    "currentIndex": -1,
+    "updatedAt": "2020-08-06T03:31:44.579Z",
+    "createdAt": "2020-08-06T02:42:39.505Z",
+    "evaluateMap": "{\"pass\":true,\"loss\":{\"0\":0.21791192889213562},\"accuracy\":{\"0\":0.9558486342430115}}",
+    "evaluatePass": true,
+    "endTime": 1596684704354,
+    "dataset": "{\"labelMap\":{\"0\":7,\"1\":9,\"2\":1,\"3\":0,\"4\":6,\"5\":4,\"6\":8,\"7\":3,\"8\":5,\"9\":2},\"feature\":{\"shape\":[28,28,3]}}"
+  }
+}

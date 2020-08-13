@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "pinstall": "./node_modules/.bin/bip install"
+  },
+  "dependencies": {
+    "@pipcook/boa": "^1.0.5",
+    "express": "^4.17.1"
+  }
+}

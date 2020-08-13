@@ -1,0 +1,16 @@
+{
+  "name": "output",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node boapkg.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pipcook/plugins-tfjs-simplecnn-model-define": "1.0.5",
+    "@pipcook/plugins-image-data-process": "1.0.5"
+  }
+}
